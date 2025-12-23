@@ -60,7 +60,7 @@ corepack_enable: true
 
 # host_xhgui_port: 8142
 # Can be used to change the host binding port of the xhgui
-# application. Rarely used; only when port conflict and 
+# application. Rarely used; only when port conflict and
 # bind_all_ports is used (normally with router disabled)
 
 # xhprof_enabled: false  # Set to true to enable Xhprof and "ddev start" or "ddev restart"
@@ -98,7 +98,7 @@ corepack_enable: true
 # Alternatively, an explicit Composer version may be specified, for example "2.2.18".
 # To reinstall Composer after the image was built, run "ddev debug rebuild".
 
-# nodejs_version: "22"
+nodejs_version: "16"
 # change from the default system Node.js version to any other version.
 # See https://ddev.readthedocs.io/en/stable/users/configuration/config/#nodejs_version for more information
 # and https://www.npmjs.com/package/n#specifying-nodejs-versions for the full documentation,

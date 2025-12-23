@@ -18,6 +18,7 @@ core
 /vendor/
 web/modules/contrib
 web/themes/contrib
+web/themes/custom/itc/node_modules
 
 # Ignore configuration files that may contain sensitive information.
 sites/*/settings*.php
