@@ -16,6 +16,8 @@ core
 # that core/assets/vendor and any other vendor directories within contrib or
 # custom module, theme, etc., are not ignored unless you purposely do so.
 /vendor/
+web/modules/contrib
+web/themes/contrib
 
 # Ignore configuration files that may contain sensitive information.
 sites/*/settings*.php
@@ -35,7 +37,7 @@ sites/simpletest
 # */settings*.php
 
 # Ignore paths that contain user-generated content.
-# */files
+web/sites/default/files
 # */private
 
 # Ignore multi-site test environment.
