@@ -1,0 +1,339 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/itc.ddev.site\/about-us?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/itc.ddev.site\/rest\/type\/node\/page"
+        },
+        "https:\/\/itc.ddev.site\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json"
+            }
+        ],
+        "https:\/\/itc.ddev.site\/rest\/relation\/node\/page\/uid": [
+            {
+                "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json",
+                "lang": "zh-hans"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "38f6b296-4923-4788-b7a8-da45f8b43d3f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
+        {
+            "value": "zh-hans",
+            "lang": "zh-hans"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2025-12-24T03:56:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/itc.ddev.site\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "69897b8b-e81d-40c4-91df-1cd2b2f88475"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/itc.ddev.site\/rest\/relation\/node\/page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "69897b8b-e81d-40c4-91df-1cd2b2f88475"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "69897b8b-e81d-40c4-91df-1cd2b2f88475"
+                    }
+                ],
+                "lang": "zh-hans"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
+        }
+    ],
+    "title": [
+        {
+            "value": "About Us",
+            "lang": "en"
+        },
+        {
+            "value": "\u5173\u4e8e\u6211\u4eec",
+            "lang": "zh-hans"
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-12-23T08:57:22+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-23T08:57:58+00:00",
+            "lang": "zh-hans",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-12-24T03:56:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-24T03:56:04+00:00",
+            "lang": "zh-hans",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/about-us",
+            "pid": 2,
+            "langcode": "en",
+            "lang": "en"
+        },
+        {
+            "alias": "\/about-us",
+            "pid": 1,
+            "langcode": "zh-hans",
+            "lang": "zh-hans"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "zh-hans"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
+        }
+    ],
+    "layout_builder__layout": [
+        {
+            "section": {
+                "layout_id": "layout_onecol",
+                "layout_settings": {
+                    "label": ""
+                },
+                "components": [
+                    {
+                        "uuid": "cd93b045-f7ef-439f-a70f-59b4d61cf38b",
+                        "region": "content",
+                        "configuration": {
+                            "id": "block_content:635b834b-23bc-4cea-a97f-443c13a7ec72",
+                            "label": "Reimagining Your Digital Future Together",
+                            "label_display": 0,
+                            "provider": "block_content",
+                            "status": true,
+                            "info": "",
+                            "view_mode": "full",
+                            "context_mapping": []
+                        },
+                        "weight": 0,
+                        "additional": []
+                    },
+                    {
+                        "uuid": "ed43f8eb-3b93-416c-9945-26dfa539ca84",
+                        "region": "content",
+                        "configuration": {
+                            "id": "block_content:04261cbf-a3c7-48fb-8b53-f113104e8415",
+                            "label": "Intro",
+                            "label_display": 0,
+                            "provider": "block_content",
+                            "status": true,
+                            "info": "",
+                            "view_mode": "full",
+                            "context_mapping": []
+                        },
+                        "weight": 1,
+                        "additional": []
+                    },
+                    {
+                        "uuid": "e1077b97-640d-4470-9daa-f9d07e1d1aed",
+                        "region": "content",
+                        "configuration": {
+                            "id": "block_content:2d19908d-d155-4f96-bbb0-b73357a2fce5",
+                            "label": "The 4 Pillars to Realize Our Vision for Your Success",
+                            "label_display": 0,
+                            "provider": "block_content",
+                            "status": true,
+                            "info": "",
+                            "view_mode": "full",
+                            "context_mapping": []
+                        },
+                        "weight": 2,
+                        "additional": []
+                    },
+                    {
+                        "uuid": "5781b527-7d0e-4eca-a316-2df555f2940d",
+                        "region": "content",
+                        "configuration": {
+                            "id": "block_content:0cb247ae-549f-48d4-9ba3-e0bee9453656",
+                            "label": "Highlight",
+                            "label_display": 0,
+                            "provider": "block_content",
+                            "status": true,
+                            "info": "",
+                            "view_mode": "full",
+                            "context_mapping": []
+                        },
+                        "weight": 3,
+                        "additional": []
+                    },
+                    {
+                        "uuid": "08db9519-318d-40aa-9f01-4cd9f3091a9b",
+                        "region": "content",
+                        "configuration": {
+                            "id": "block_content:9d4c112b-6b4a-47ae-9fcb-fcdd0d5441f4",
+                            "label": "Our Core Values",
+                            "label_display": 0,
+                            "provider": "block_content",
+                            "status": true,
+                            "info": "",
+                            "view_mode": "full",
+                            "context_mapping": []
+                        },
+                        "weight": 4,
+                        "additional": []
+                    },
+                    {
+                        "uuid": "6b95b26e-00aa-4a98-b692-a045749fe615",
+                        "region": "content",
+                        "configuration": {
+                            "id": "block_content:08338627-86bc-440d-af01-e64266dc2287",
+                            "label": "Leadership",
+                            "label_display": 0,
+                            "provider": "block_content",
+                            "status": true,
+                            "info": "",
+                            "view_mode": "full",
+                            "context_mapping": []
+                        },
+                        "weight": 5,
+                        "additional": []
+                    }
+                ],
+                "third_party_settings": []
+            }
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1766599115
+    }
+}

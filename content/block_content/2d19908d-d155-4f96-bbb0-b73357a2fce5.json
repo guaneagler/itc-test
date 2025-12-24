@@ -1,0 +1,216 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/itc.ddev.site\/admin\/content\/block\/6?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/itc.ddev.site\/rest\/type\/block_content\/pillars"
+        },
+        "https:\/\/itc.ddev.site\/rest\/relation\/block_content\/pillars\/content_translation_uid": [
+            {
+                "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "https:\/\/itc.ddev.site\/rest\/relation\/block_content\/pillars\/field_pillars": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 6
+        }
+    ],
+    "uuid": [
+        {
+            "value": "2d19908d-d155-4f96-bbb0-b73357a2fce5"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "pillars"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2025-12-24T02:38:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "The 4 Pillars to Realize Our Vision for Your Success",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-12-24T03:30:11+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/itc.ddev.site\/rest\/relation\/block_content\/pillars\/content_translation_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "69897b8b-e81d-40c4-91df-1cd2b2f88475"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "https:\/\/itc.ddev.site\/rest\/relation\/block_content\/pillars\/field_pillars": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/paragraph\/pillar"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fe2605b6-c753-4204-ab0c-86ebc22815c4"
+                    }
+                ],
+                "target_revision_id": "1"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/paragraph\/pillar"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a6748c53-b516-4d2b-8a85-1002adac0ca2"
+                    }
+                ],
+                "target_revision_id": "2"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/paragraph\/pillar"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f966e3c8-ac67-44af-8856-3001d4e54966"
+                    }
+                ],
+                "target_revision_id": "3"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/paragraph\/pillar"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c8ac662b-22c8-4663-a963-987c607ef79c"
+                    }
+                ],
+                "target_revision_id": "4"
+            }
+        ]
+    },
+    "content_translation_created": [
+        {
+            "value": "2025-12-24T02:38:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>ITC offers a wide range of strategy consulting and technology development services for various industries worldwide. Ultimately, we help our clients develop the best strategies and playbook set-up along with the right digital enablers to achieve their objectives in China, Asia, and other markets.<\/p><p>Find your next success path with our combined strategic and technology expertis<\/p>",
+            "format": "basic_html",
+            "processed": "<p>ITC offers a wide range of strategy consulting and technology development services for various industries worldwide. Ultimately, we help our clients develop the best strategies and playbook set-up along with the right digital enablers to achieve their objectives in China, Asia, and other markets.<\/p><p>Find your next success path with our combined strategic and technology expertis<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "The 4 Pillars to Realize Our Vision for Your Success",
+            "lang": "en"
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1766598525
+    }
+}

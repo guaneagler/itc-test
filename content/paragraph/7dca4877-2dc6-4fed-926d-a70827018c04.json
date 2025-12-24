@@ -1,0 +1,142 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/itc.ddev.site\/rest\/type\/paragraph\/value"
+        },
+        "https:\/\/itc.ddev.site\/rest\/relation\/paragraph\/value\/field_image": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 10
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7dca4877-2dc6-4fed-926d-a70827018c04"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "value"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-12-24T03:35:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "8"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "block_content"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_values"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "content_translation_changed": [
+        {
+            "value": "2025-12-24T03:36:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "field_description": [
+        {
+            "value": "<p>Accountability, taking ownership, and responsibility for our actions and decisions are in our DNA. Taking responsibility rather than blaming others or making excuses and also taking responsibility towards our clients to deliver the best solution out there for them to have the best ROI. We win over our partners' trust and influence our industry. We create a culture of trust, integrity, and collaboration, where we all contribute to the success of our organization and of our clients.<\/p>",
+            "format": "basic_html",
+            "processed": "<p>Accountability, taking ownership, and responsibility for our actions and decisions are in our DNA. Taking responsibility rather than blaming others or making excuses and also taking responsibility towards our clients to deliver the best solution out there for them to have the best ROI. We win over our partners' trust and influence our industry. We create a culture of trust, integrity, and collaboration, where we all contribute to the success of our organization and of our clients.<\/p>",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/itc.ddev.site\/rest\/relation\/paragraph\/value\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "496df59d-093d-442d-85bf-74260aa46346"
+                    }
+                ],
+                "lang": "en",
+                "alt": "We Own It",
+                "title": "",
+                "width": "520",
+                "height": "520"
+            }
+        ]
+    },
+    "field_title": [
+        {
+            "value": "We Own It",
+            "lang": "en"
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1766601866
+    }
+}

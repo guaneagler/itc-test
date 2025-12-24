@@ -1,0 +1,99 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/itc.ddev.site\/rest\/type\/user\/user"
+        }
+    },
+    "uid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "69897b8b-e81d-40c4-91df-1cd2b2f88475"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "preferred_langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "superadmin"
+        }
+    ],
+    "mail": [
+        {
+            "value": "superadmin@itc.com"
+        }
+    ],
+    "timezone": [
+        {
+            "value": "Asia\/Shanghai"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-12-23T07:40:02+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-12-23T07:40:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "access": [
+        {
+            "value": "2025-12-24T17:46:57+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "login": [
+        {
+            "value": "2025-12-23T07:40:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "init": [
+        {
+            "value": "admin@itc.com"
+        }
+    ],
+    "roles": [
+        {
+            "target_id": "administrator"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "pass": [
+        {
+            "value": "$2y$10$80cS64cm0GFwja0Xzfw5XOtrMpWBPk..JZK\/D9OIoVu5PIUq7sANa"
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1766598525
+    }
+}
