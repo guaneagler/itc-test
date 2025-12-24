@@ -1,0 +1,23 @@
+uuid: a4e835f7-da22-4203-b668-e399cb6b1832
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.td
+    - field.storage.block_content.field_bg_color
+  module:
+    - options
+id: block_content.td.field_bg_color
+field_name: field_bg_color
+entity_type: block_content
+bundle: td
+label: 'BG Color'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: white
+default_value_callback: ''
+settings: {  }
+field_type: list_string

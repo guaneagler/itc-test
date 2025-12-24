@@ -1,0 +1,19 @@
+uuid: 0c34c333-5b27-41f4-8ca7-6dda294789a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pillars
+    - field.storage.block_content.field_title
+id: block_content.pillars.field_title
+field_name: field_title
+entity_type: block_content
+bundle: pillars
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

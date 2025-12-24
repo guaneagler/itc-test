@@ -1,0 +1,40 @@
+uuid: ed4c9ce5-dd1a-4b93-81c2-9ada26e76745
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pillar.field_image
+    - field.field.paragraph.pillar.field_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.pillar
+  module:
+    - image
+id: paragraph.pillar.default
+targetEntityType: paragraph
+bundle: pillar
+mode: default
+content:
+  field_image:
+    type: image_image
+    weight: 11
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

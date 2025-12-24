@@ -1,0 +1,22 @@
+uuid: acf1005e-21f7-4370-8f91-a8e7c38ce747
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - itc
+_core:
+  default_config_hash: XEq_NAqKE8fDHFVmxf6ECjsuwXd-F21mHAk67k8lV7g
+id: itc_messages
+theme: itc
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

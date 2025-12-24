@@ -1,0 +1,15 @@
+uuid: 9a56cace-657d-4f4d-8eae-e8b889714173
+langcode: en
+status: true
+dependencies: {  }
+name: 130w
+label: 130W
+effects:
+  9f216fd9-1b30-46bc-9f72-d94e2b9c3145:
+    uuid: 9f216fd9-1b30-46bc-9f72-d94e2b9c3145
+    id: image_scale
+    weight: 1
+    data:
+      width: 130
+      height: null
+      upscale: false

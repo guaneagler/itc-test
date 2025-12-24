@@ -1,0 +1,11 @@
+uuid: a8e086ac-787a-4bba-8e71-24b9613e09b9
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.highlight
+label: Highlight
+description: null
+targetEntityType: paragraph
+cache: true

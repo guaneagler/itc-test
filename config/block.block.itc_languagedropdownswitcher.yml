@@ -1,0 +1,49 @@
+uuid: 1b4e0f4b-08f3-44fc-afaf-c5d1a53b04b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - lang_dropdown
+  theme:
+    - itc
+third_party_settings:
+  block_class:
+    classes: ms-5
+id: itc_languagedropdownswitcher
+theme: itc
+region: primary_menu
+weight: -4
+provider: null
+plugin: 'language_dropdown_block:language_interface'
+settings:
+  id: 'language_dropdown_block:language_interface'
+  label: 'Language dropdown switcher'
+  label_display: '0'
+  provider: lang_dropdown
+  showall: false
+  hide_only_one: true
+  tohome: false
+  width: 165
+  display: 1
+  widget: 0
+  msdropdown:
+    visible_rows: 5
+    rounded: true
+    animation: slideDown
+    event: click
+    skin: ldsSkin
+    custom_skin: ''
+  chosen:
+    disable_search: true
+    no_results_text: 'No language match'
+  ddslick:
+    ddslick_height: 0
+    showSelectedHTML: true
+    imagePosition: left
+    skin: ddsDefault
+    custom_skin: ''
+  languageicons:
+    flag_position: 1
+  hidden_languages: {  }
+visibility: {  }

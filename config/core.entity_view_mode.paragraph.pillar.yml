@@ -1,0 +1,11 @@
+uuid: 311c1820-2d77-4ffd-bb68-424a83a147be
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.pillar
+label: Pillar
+description: null
+targetEntityType: paragraph
+cache: true

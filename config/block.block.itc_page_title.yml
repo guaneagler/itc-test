@@ -1,0 +1,20 @@
+uuid: 0fb64e39-927c-42ad-893e-f11438bc9cc2
+langcode: en
+status: false
+dependencies:
+  theme:
+    - itc
+_core:
+  default_config_hash: FKmCp0jjVqITNEf6B6axThwm3KKhM1IShuhP87rGsxg
+id: itc_page_title
+theme: itc
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

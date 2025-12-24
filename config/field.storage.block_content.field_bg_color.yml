@@ -1,0 +1,27 @@
+uuid: ce0d1ecf-098f-4817-8f96-0738d8b26759
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_bg_color
+field_name: field_bg_color
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: white
+      label: white
+    -
+      value: red
+      label: red
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

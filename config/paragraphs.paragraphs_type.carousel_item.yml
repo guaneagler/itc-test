@@ -1,0 +1,10 @@
+uuid: c95f4a2f-3841-4626-9713-1048bee96167
+langcode: en
+status: true
+dependencies: {  }
+id: carousel_item
+label: 'Carousel Item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

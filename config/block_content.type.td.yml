@@ -1,0 +1,8 @@
+uuid: e1a7478a-fdee-49c9-84c8-b1d7ab638d2b
+langcode: en
+status: true
+dependencies: {  }
+id: td
+label: TD
+revision: false
+description: 'For text block with Title, Description. Block background color is changable.'

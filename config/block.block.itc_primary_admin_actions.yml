@@ -1,0 +1,20 @@
+uuid: 9d1e92d4-56f1-45b6-aaba-98c674f0fefe
+langcode: en
+status: true
+dependencies:
+  theme:
+    - itc
+_core:
+  default_config_hash: EOqIFX217LPqpsoyvYHJDL62KoJP18hEHtK1IqYipFk
+id: itc_primary_admin_actions
+theme: itc
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

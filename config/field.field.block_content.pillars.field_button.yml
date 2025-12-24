@@ -1,0 +1,23 @@
+uuid: 6169cba5-7108-45cf-88a5-6a7df93e884d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pillars
+    - field.storage.block_content.field_button
+  module:
+    - link
+id: block_content.pillars.field_button
+field_name: field_button
+entity_type: block_content
+bundle: pillars
+label: Button
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

@@ -1,0 +1,22 @@
+uuid: b0705c81-ea63-4a21-a0dc-25ce53b3d205
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - itc
+_core:
+  default_config_hash: nbdfd6t2i6fT1tZAl6tavE84rpU93OjDhgAquQxQRss
+id: itc_breadcrumbs
+theme: itc
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

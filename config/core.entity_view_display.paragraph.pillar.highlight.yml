@@ -1,0 +1,46 @@
+uuid: 21e7464c-b08a-49b2-b601-b856f2ce5ec5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.highlight
+    - field.field.paragraph.pillar.field_image
+    - field.field.paragraph.pillar.field_title
+    - image.style.300w
+    - paragraphs.paragraphs_type.pillar
+  module:
+    - layout_builder
+    - svg_image
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: paragraph.pillar.highlight
+targetEntityType: paragraph
+bundle: pillar
+mode: highlight
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: 300w
+      image_loading:
+        attribute: lazy
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

@@ -1,0 +1,49 @@
+uuid: d5d03618-e53d-4fed-9101-61beb498ee4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.value.field_description
+    - field.field.paragraph.value.field_image
+    - field.field.paragraph.value.field_title
+    - image.style.130w
+    - paragraphs.paragraphs_type.value
+  module:
+    - svg_image
+    - text
+id: paragraph.value.default
+targetEntityType: paragraph
+bundle: value
+mode: default
+content:
+  field_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: 130w
+      image_loading:
+        attribute: lazy
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

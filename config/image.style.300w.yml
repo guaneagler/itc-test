@@ -1,0 +1,15 @@
+uuid: 73cc8d1c-f383-4802-ad4a-2ee3883abe69
+langcode: en
+status: true
+dependencies: {  }
+name: 300w
+label: 300W
+effects:
+  c4e776f6-d5e9-49b1-b711-4a2a3bffe74f:
+    uuid: c4e776f6-d5e9-49b1-b711-4a2a3bffe74f
+    id: image_scale
+    weight: 1
+    data:
+      width: 300
+      height: null
+      upscale: false

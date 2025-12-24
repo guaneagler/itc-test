@@ -1,0 +1,31 @@
+uuid: 026df520-d8d6-4d36-9e2a-5b1ee2eb3452
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.highlight
+    - field.storage.block_content.field_highlight
+    - paragraphs.paragraphs_type.pillar
+  module:
+    - entity_reference_revisions
+id: block_content.highlight.field_highlight
+field_name: field_highlight
+entity_type: block_content
+bundle: highlight
+label: Highlight
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      pillar: pillar
+    negate: 0
+    target_bundles_drag_drop:
+      pillar:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

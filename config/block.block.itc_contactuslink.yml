@@ -1,0 +1,29 @@
+uuid: b5ca9cb0-b081-430d-85d4-6e57657a838f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a4cc6377-a9b1-4f25-9875-ba7290e4c3b1'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - itc
+third_party_settings:
+  block_class:
+    classes: ms-5
+id: itc_contactuslink
+theme: itc
+region: primary_menu
+weight: -3
+provider: null
+plugin: 'block_content:a4cc6377-a9b1-4f25-9875-ba7290e4c3b1'
+settings:
+  id: 'block_content:a4cc6377-a9b1-4f25-9875-ba7290e4c3b1'
+  label: 'Contact Us Link'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

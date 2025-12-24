@@ -1,0 +1,25 @@
+uuid: 51ea02ac-f110-4a41-9388-67ef8222b619
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1476857c-414e-4100-8027-0af5324ce7e4'
+  module:
+    - block_content
+  theme:
+    - itc
+id: itc_footerblock
+theme: itc
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:1476857c-414e-4100-8027-0af5324ce7e4'
+settings:
+  id: 'block_content:1476857c-414e-4100-8027-0af5324ce7e4'
+  label: 'Footer block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

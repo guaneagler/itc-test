@@ -1,0 +1,8 @@
+uuid: 851b5cc3-98f1-41a4-b492-b285f650f7b0
+langcode: en
+status: true
+dependencies: {  }
+id: core_values
+label: 'Core values'
+revision: false
+description: null

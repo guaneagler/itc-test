@@ -1,0 +1,40 @@
+uuid: 2a156809-532d-4d8a-94c1-a11caf887b29
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.pillar
+    - field.field.paragraph.carousel_item.field_description
+    - field.field.paragraph.carousel_item.field_image
+    - field.field.paragraph.carousel_item.field_job
+    - field.field.paragraph.carousel_item.field_title
+    - paragraphs.paragraphs_type.carousel_item
+  module:
+    - image
+id: paragraph.carousel_item.pillar
+targetEntityType: paragraph
+bundle: carousel_item
+mode: pillar
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_description: true
+  field_job: true

@@ -1,0 +1,31 @@
+uuid: 26412b04-62b3-41af-a3d0-8e10d797e31b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pillars
+    - field.storage.block_content.field_pillars
+    - paragraphs.paragraphs_type.pillar
+  module:
+    - entity_reference_revisions
+id: block_content.pillars.field_pillars
+field_name: field_pillars
+entity_type: block_content
+bundle: pillars
+label: Pillars
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      pillar: pillar
+    negate: 0
+    target_bundles_drag_drop:
+      pillar:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

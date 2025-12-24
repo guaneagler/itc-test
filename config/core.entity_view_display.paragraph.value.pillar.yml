@@ -1,0 +1,38 @@
+uuid: 67e6a404-e1ae-45d6-8b6a-2c303f5d2743
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.pillar
+    - field.field.paragraph.value.field_description
+    - field.field.paragraph.value.field_image
+    - field.field.paragraph.value.field_title
+    - paragraphs.paragraphs_type.value
+  module:
+    - image
+id: paragraph.value.pillar
+targetEntityType: paragraph
+bundle: value
+mode: pillar
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_description: true

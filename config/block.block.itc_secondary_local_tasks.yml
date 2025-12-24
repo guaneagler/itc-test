@@ -1,0 +1,22 @@
+uuid: 54db9a0a-ef3c-4624-bb30-9af005b96994
+langcode: en
+status: true
+dependencies:
+  theme:
+    - itc
+_core:
+  default_config_hash: QgFRxtF-Xcao2UlK7ECP5oHcALCTpT34N3hSw_jw4Fc
+id: itc_secondary_local_tasks
+theme: itc
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

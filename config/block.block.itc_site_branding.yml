@@ -1,0 +1,25 @@
+uuid: 6cfbc21a-2eb2-4a34-9773-f3b41cfcc3c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - itc
+_core:
+  default_config_hash: 9enkojAh4cr2D6vpE9uF3wzHS2XuZDwKYhUW0MrMQR8
+id: itc_site_branding
+theme: itc
+region: header
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

@@ -1,0 +1,31 @@
+uuid: dac5636b-94a5-47b5-95d5-feab2930155c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - block_class
+    - system
+  theme:
+    - itc
+third_party_settings:
+  block_class:
+    classes: 'flex-grow-1 justify-content-end d-flex'
+_core:
+  default_config_hash: EQS55D7tyVjW7c4XPj3tT0Qj14qemOyPLGmTmCRw_9M
+id: itc_main_menu
+theme: itc
+region: primary_menu
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }
