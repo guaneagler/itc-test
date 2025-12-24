@@ -20,12 +20,14 @@
     },
     "require": {
         "composer/installers": "^2.3",
+        "cweagans/composer-patches": "^1.7",
         "drupal/block_class": "^4.0",
         "drupal/bootstrap_barrio": "^5.5",
         "drupal/core-composer-scaffold": "^11.2",
         "drupal/core-project-message": "^11.2",
         "drupal/core-recipe-unpack": "^11.2",
         "drupal/core-recommended": "^11.2",
+        "drupal/default_content_deploy": "^2.1",
         "drupal/gin": "^5.0",
         "drupal/lang_dropdown": "^2.4",
         "drupal/paragraphs": "^1.19",
@@ -45,6 +47,7 @@
     "config": {
         "allow-plugins": {
             "composer/installers": true,
+            "cweagans/composer-patches": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
@@ -120,6 +123,15 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
+        },
+        "enable-patching": true,
+        "patches": {
+            "drupal/core": {
+                "https://www.drupal.org/project/drupal/issues/2942975#comment-14351664": "https://www.drupal.org/files/issues/2025-02-25/2942975-274.patch"
+            },
+            "drupal/hal": {
+                "https://www.drupal.org/project/hal/issues/2904423#comment-14351658": "https://www.drupal.org/files/issues/2023-04-05/2904423-90.patch"
+            }
         }
     },
     "scripts": {
