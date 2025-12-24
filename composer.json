@@ -127,7 +127,8 @@
         "enable-patching": true,
         "patches": {
             "drupal/core": {
-                "https://www.drupal.org/project/drupal/issues/2942975#comment-14351664": "https://www.drupal.org/files/issues/2025-02-25/2942975-274.patch"
+                "https://www.drupal.org/project/drupal/issues/2942975#comment-14351664": "https://www.drupal.org/files/issues/2025-02-25/2942975-274.patch",
+                "Temp remove install func in standard profile.": "./patches/remove-install-func-for-standard-profile.patch"
             },
             "drupal/hal": {
                 "https://www.drupal.org/project/hal/issues/2904423#comment-14351658": "https://www.drupal.org/files/issues/2023-04-05/2904423-90.patch"

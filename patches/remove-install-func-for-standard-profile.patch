@@ -1,0 +1,43 @@
+diff --git a/core/profiles/standard/standard.install b/core/profiles/standard/standard.install
+index 89b96e5..43c6a88 100644
+--- a/core/profiles/standard/standard.install
++++ b/core/profiles/standard/standard.install
+@@ -14,21 +14,21 @@
+  *
+  * @see system_install()
+  */
+-function standard_install(): void {
+-  // Populate the default shortcut set.
+-  $shortcut = Shortcut::create([
+-    'shortcut_set' => 'default',
+-    'title' => t('Add content'),
+-    'weight' => -20,
+-    'link' => ['uri' => 'internal:/node/add'],
+-  ]);
+-  $shortcut->save();
++// function standard_install(): void {
++//   // Populate the default shortcut set.
++//   $shortcut = Shortcut::create([
++//     'shortcut_set' => 'default',
++//     'title' => t('Add content'),
++//     'weight' => -20,
++//     'link' => ['uri' => 'internal:/node/add'],
++//   ]);
++//   $shortcut->save();
+
+-  $shortcut = Shortcut::create([
+-    'shortcut_set' => 'default',
+-    'title' => t('All content'),
+-    'weight' => -19,
+-    'link' => ['uri' => 'internal:/admin/content'],
+-  ]);
+-  $shortcut->save();
+-}
++//   $shortcut = Shortcut::create([
++//     'shortcut_set' => 'default',
++//     'title' => t('All content'),
++//     'weight' => -19,
++//     'link' => ['uri' => 'internal:/admin/content'],
++//   ]);
++//   $shortcut->save();
++// }
