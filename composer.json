@@ -24,6 +24,7 @@
         "drupal/gin": "^5.0",
         "drupal/paragraphs": "^1.19",
         "drupal/quickedit": "^2.0",
+        "drupal/svg_image": "^3.2",
         "drush/drush": "^13.7"
     },
     "conflict": {
