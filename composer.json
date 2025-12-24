@@ -20,12 +20,14 @@
     },
     "require": {
         "composer/installers": "^2.3",
+        "drupal/block_class": "^4.0",
         "drupal/bootstrap_barrio": "^5.5",
         "drupal/core-composer-scaffold": "^11.2",
         "drupal/core-project-message": "^11.2",
         "drupal/core-recipe-unpack": "^11.2",
         "drupal/core-recommended": "^11.2",
         "drupal/gin": "^5.0",
+        "drupal/lang_dropdown": "^2.4",
         "drupal/paragraphs": "^1.19",
         "drupal/quickedit": "^2.0",
         "drupal/slick": "^3.0",
@@ -124,12 +126,14 @@
         "post-install-cmd": [
             "mkdir -p web/libraries/bootstrap",
             "cp -R vendor/twbs/bootstrap/dist web/libraries/bootstrap",
-            "mv ./web/libraries/slick-carousel ./web/libraries/slick"
+            "cp -R ./web/libraries/slick-carousel ./web/libraries/slick",
+            "rm -rf ./web/libraries/slick-carousel"
         ],
         "post-update-cmd": [
             "mkdir -p web/libraries/bootstrap",
             "cp -R vendor/twbs/bootstrap/dist web/libraries/bootstrap",
-            "mv ./web/libraries/slick-carousel ./web/libraries/slick"
+            "cp -R ./web/libraries/slick-carousel ./web/libraries/slick",
+            "rm -rf ./web/libraries/slick-carousel"
         ]
     }
 }
