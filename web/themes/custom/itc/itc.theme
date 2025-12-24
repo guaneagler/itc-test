@@ -30,3 +30,15 @@ function itc_form_system_theme_settings_alter(&$form, FormStateInterface $form_s
     'bg-transparent' => t('Transparent'),
   );
 }
+
+/**
+ * Implements hook_preprocess_block().
+ */
+function itc_preprocess_block(&$variables) {
+  if (!empty($variables["content"]["#block_content"])) {
+    $block_content = $variables["content"]["#block_content"];
+    if ($block_content->hasField('field_bg_color')) {
+      $variables["attributes"]["class"][] = "block-bg-" . $block_content->get('field_bg_color')->getString();
+    }
+  }
+}
