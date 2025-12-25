@@ -1,30 +1,31 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/itc.ddev.site\/admin\/content\/block\/10?_format=hal_json"
+            "href": "https:\/\/itc.ddev.site\/admin\/structure\/menu\/item\/5\/edit?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/itc.ddev.site\/rest\/type\/block_content\/basic"
+            "href": "https:\/\/itc.ddev.site\/rest\/type\/menu_link_content\/menu_link_content"
         },
-        "https:\/\/itc.ddev.site\/rest\/relation\/block_content\/basic\/content_translation_uid": [
-            {
-                "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json",
-                "lang": "en"
-            },
+        "https:\/\/itc.ddev.site\/rest\/relation\/menu_link_content\/menu_link_content\/content_translation_uid": [
             {
                 "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json",
                 "lang": "zh-hans"
+            }
+        ],
+        "https:\/\/itc.ddev.site\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_target_entity": [
+            {
+                "href": "https:\/\/itc.ddev.site\/about-us?_format=hal_json"
             }
         ]
     },
     "id": [
         {
-            "value": 10
+            "value": 5
         }
     ],
     "uuid": [
         {
-            "value": "a4cc6377-a9b1-4f25-9875-ba7290e4c3b1"
+            "value": "e7a28bb3-e01e-4b90-8824-596f8e5a5b68"
         }
     ],
     "langcode": [
@@ -37,52 +38,75 @@
             "lang": "zh-hans"
         }
     ],
-    "type": [
+    "bundle": [
         {
-            "target_id": "basic"
+            "value": "menu_link_content"
         }
     ],
     "revision_created": [
         {
-            "value": "2025-12-24T06:33:27+00:00",
+            "value": "2025-12-23T09:15:20+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
-    "status": [
+    "enabled": [
         {
-            "value": true,
+            "value": true
+        }
+    ],
+    "title": [
+        {
+            "value": "About Us",
             "lang": "en"
         },
         {
-            "value": true,
+            "value": "\u5173\u4e8e\u6211\u4eec",
             "lang": "zh-hans"
         }
     ],
-    "info": [
+    "menu_name": [
         {
-            "value": "Contact Us Link",
-            "lang": "en"
-        },
+            "value": "main"
+        }
+    ],
+    "link": [
         {
-            "value": "Contact Us Link CN",
-            "lang": "zh-hans"
+            "uri": "entity:node\/1",
+            "title": "",
+            "options": [],
+            "target_uuid": "38f6b296-4923-4788-b7a8-da45f8b43d3f"
+        }
+    ],
+    "external": [
+        {
+            "value": false
+        }
+    ],
+    "rediscover": [
+        {
+            "value": false
+        }
+    ],
+    "weight": [
+        {
+            "value": -45
+        }
+    ],
+    "expanded": [
+        {
+            "value": false
         }
     ],
     "changed": [
         {
-            "value": "2025-12-24T06:33:27+00:00",
+            "value": "2025-12-23T09:15:43+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2025-12-25T00:49:51+00:00",
+            "value": "2025-12-25T00:45:16+00:00",
             "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
-        }
-    ],
-    "reusable": [
-        {
-            "value": true
         }
     ],
     "default_langcode": [
@@ -126,23 +150,7 @@
         }
     ],
     "_embedded": {
-        "https:\/\/itc.ddev.site\/rest\/relation\/block_content\/basic\/content_translation_uid": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "https:\/\/itc.ddev.site\/rest\/type\/user\/user"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "69897b8b-e81d-40c4-91df-1cd2b2f88475"
-                    }
-                ],
-                "lang": "en"
-            },
+        "https:\/\/itc.ddev.site\/rest\/relation\/menu_link_content\/menu_link_content\/content_translation_uid": [
             {
                 "_links": {
                     "self": {
@@ -159,37 +167,48 @@
                 ],
                 "lang": "zh-hans"
             }
+        ],
+        "https:\/\/itc.ddev.site\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_target_entity": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/itc.ddev.site\/about-us?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/node\/page"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "38f6b296-4923-4788-b7a8-da45f8b43d3f"
+                    }
+                ]
+            }
         ]
     },
-    "content_translation_created": [
+    "content_translation_status": [
         {
-            "value": "2025-12-24T06:33:27+00:00",
-            "lang": "en",
-            "format": "Y-m-d\\TH:i:sP"
+            "value": true,
+            "lang": "en"
         },
         {
-            "value": "2025-12-25T00:46:28+00:00",
+            "value": true,
+            "lang": "zh-hans"
+        }
+    ],
+    "content_translation_created": [
+        {
+            "value": "2025-12-25T00:45:16+00:00",
             "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
-    "body": [
-        {
-            "value": "<p><a href=\"\/contact-us\">Contact Us<\/a><\/p>",
-            "format": "basic_html",
-            "processed": "<p><a href=\"\/contact-us\">Contact Us<\/a><\/p>",
-            "summary": "",
-            "lang": "en"
-        },
-        {
-            "value": "<p><a href=\"\/cn\/contact-us\">\u8054\u7cfb\u6211\u4eec<\/a><\/p>",
-            "format": "basic_html",
-            "processed": "<p><a href=\"\/cn\/contact-us\">\u8054\u7cfb\u6211\u4eec<\/a><\/p>",
-            "summary": "",
-            "lang": "zh-hans"
-        }
-    ],
     "_dcd_metadata": {
-        "export_timestamp": 1766624422
+        "uuids": {
+            "node": {
+                "1": "38f6b296-4923-4788-b7a8-da45f8b43d3f"
+            }
+        },
+        "export_timestamp": 1766624495
     }
 }

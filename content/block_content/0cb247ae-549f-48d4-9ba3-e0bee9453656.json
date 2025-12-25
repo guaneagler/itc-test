@@ -10,6 +10,10 @@
             {
                 "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json",
                 "lang": "en"
+            },
+            {
+                "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json",
+                "lang": "zh-hans"
             }
         ],
         "https:\/\/itc.ddev.site\/rest\/relation\/block_content\/highlight\/field_highlight": [
@@ -41,6 +45,10 @@
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "zh-hans",
+            "lang": "zh-hans"
         }
     ],
     "type": [
@@ -58,18 +66,31 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "info": [
         {
             "value": "Highlight",
             "lang": "en"
+        },
+        {
+            "value": "Highlight CN",
+            "lang": "zh-hans"
         }
     ],
     "changed": [
         {
             "value": "2025-12-24T03:34:03+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-25T00:56:33+00:00",
+            "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -82,24 +103,40 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "zh-hans"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "_embedded": {
@@ -119,6 +156,22 @@
                     }
                 ],
                 "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "69897b8b-e81d-40c4-91df-1cd2b2f88475"
+                    }
+                ],
+                "lang": "zh-hans"
             }
         ],
         "https:\/\/itc.ddev.site\/rest\/relation\/block_content\/highlight\/field_highlight": [
@@ -193,9 +246,14 @@
             "value": "2025-12-24T03:33:22+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-25T00:56:21+00:00",
+            "lang": "zh-hans",
+            "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1766598525
+        "export_timestamp": 1766624444
     }
 }

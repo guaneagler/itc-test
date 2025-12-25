@@ -10,6 +10,10 @@
             {
                 "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json",
                 "lang": "en"
+            },
+            {
+                "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json",
+                "lang": "zh-hans"
             }
         ]
     },
@@ -27,6 +31,10 @@
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "zh-hans",
+            "lang": "zh-hans"
         }
     ],
     "type": [
@@ -44,18 +52,31 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "info": [
         {
             "value": "Intro",
             "lang": "en"
+        },
+        {
+            "value": "Intro CN",
+            "lang": "zh-hans"
         }
     ],
     "changed": [
         {
             "value": "2025-12-24T10:18:54+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-25T00:53:51+00:00",
+            "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -68,24 +89,40 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "zh-hans"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "_embedded": {
@@ -105,6 +142,22 @@
                     }
                 ],
                 "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "69897b8b-e81d-40c4-91df-1cd2b2f88475"
+                    }
+                ],
+                "lang": "zh-hans"
             }
         ]
     },
@@ -112,6 +165,11 @@
         {
             "value": "2025-12-24T02:31:35+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-25T00:53:51+00:00",
+            "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -122,6 +180,13 @@
             "processed": "<p>Our team consists of 60+ highly motivated talents from 14 different nationalities based in 3 countries across Asia, from Shanghai, China, to Saigon, Vietnam, and Singapore.<\/p>",
             "summary": "",
             "lang": "en"
+        },
+        {
+            "value": "<p>\u6211\u4eec\u7684\u56e2\u961f\u7531\u6765\u81ea 14 \u4e2a\u4e0d\u540c\u56fd\u5bb6\u7684 60 \u591a\u540d\u79ef\u6781\u8fdb\u53d6\u7684\u4eba\u624d\u7ec4\u6210, \u5206\u5e03\u5728\u4e9a\u6d32\u7684 3 \u4e2a\u56fd\u5bb6\uff0c\u4ece\u4e2d\u56fd\u4e0a\u6d77\u5230\u8d8a\u5357\u80e1\u5fd7\u660e\u548c\u65b0\u52a0\u5761.<\/p>",
+            "format": "basic_html",
+            "processed": "<p>\u6211\u4eec\u7684\u56e2\u961f\u7531\u6765\u81ea 14 \u4e2a\u4e0d\u540c\u56fd\u5bb6\u7684 60 \u591a\u540d\u79ef\u6781\u8fdb\u53d6\u7684\u4eba\u624d\u7ec4\u6210, \u5206\u5e03\u5728\u4e9a\u6d32\u7684 3 \u4e2a\u56fd\u5bb6\uff0c\u4ece\u4e2d\u56fd\u4e0a\u6d77\u5230\u8d8a\u5357\u80e1\u5fd7\u660e\u548c\u65b0\u52a0\u5761.<\/p>",
+            "summary": "",
+            "lang": "zh-hans"
         }
     ],
     "field_bg_color": [
@@ -130,6 +195,6 @@
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1766598525
+        "export_timestamp": 1766624460
     }
 }

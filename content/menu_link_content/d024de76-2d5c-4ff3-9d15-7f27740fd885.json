@@ -1,0 +1,186 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/itc.ddev.site\/admin\/structure\/menu\/item\/2\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/itc.ddev.site\/rest\/type\/menu_link_content\/menu_link_content"
+        },
+        "https:\/\/itc.ddev.site\/rest\/relation\/menu_link_content\/menu_link_content\/content_translation_uid": [
+            {
+                "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json",
+                "lang": "zh-hans"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 2
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d024de76-2d5c-4ff3-9d15-7f27740fd885"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
+        {
+            "value": "zh-hans",
+            "lang": "zh-hans"
+        }
+    ],
+    "bundle": [
+        {
+            "value": "menu_link_content"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2025-12-23T09:14:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "enabled": [
+        {
+            "value": true
+        }
+    ],
+    "title": [
+        {
+            "value": "Projects",
+            "lang": "en"
+        },
+        {
+            "value": "\u5ba2\u6237\u6848\u4f8b",
+            "lang": "zh-hans"
+        }
+    ],
+    "menu_name": [
+        {
+            "value": "main"
+        }
+    ],
+    "link": [
+        {
+            "uri": "internal:\/projects",
+            "title": "",
+            "options": []
+        }
+    ],
+    "external": [
+        {
+            "value": false
+        }
+    ],
+    "rediscover": [
+        {
+            "value": true
+        }
+    ],
+    "weight": [
+        {
+            "value": -48
+        }
+    ],
+    "expanded": [
+        {
+            "value": false
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-12-23T09:15:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-25T00:44:39+00:00",
+            "lang": "zh-hans",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "zh-hans"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/itc.ddev.site\/rest\/relation\/menu_link_content\/menu_link_content\/content_translation_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "69897b8b-e81d-40c4-91df-1cd2b2f88475"
+                    }
+                ],
+                "lang": "zh-hans"
+            }
+        ]
+    },
+    "content_translation_status": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
+        }
+    ],
+    "content_translation_created": [
+        {
+            "value": "2025-12-25T00:44:39+00:00",
+            "lang": "zh-hans",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1766624495
+    }
+}

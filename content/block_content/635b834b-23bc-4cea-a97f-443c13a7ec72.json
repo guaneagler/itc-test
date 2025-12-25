@@ -10,6 +10,10 @@
             {
                 "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json",
                 "lang": "en"
+            },
+            {
+                "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json",
+                "lang": "zh-hans"
             }
         ]
     },
@@ -27,6 +31,10 @@
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "zh-hans",
+            "lang": "zh-hans"
         }
     ],
     "type": [
@@ -44,18 +52,31 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "info": [
         {
             "value": "Reimagining Your Digital Future Together",
             "lang": "en"
+        },
+        {
+            "value": "Reimagining Your Digital Future Together CN",
+            "lang": "zh-hans"
         }
     ],
     "changed": [
         {
             "value": "2025-12-24T02:16:41+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-25T00:58:46+00:00",
+            "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -68,24 +89,40 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "zh-hans"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "_embedded": {
@@ -105,6 +142,22 @@
                     }
                 ],
                 "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "69897b8b-e81d-40c4-91df-1cd2b2f88475"
+                    }
+                ],
+                "lang": "zh-hans"
             }
         ]
     },
@@ -112,6 +165,11 @@
         {
             "value": "2025-12-24T02:16:41+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-25T00:58:46+00:00",
+            "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -122,6 +180,13 @@
             "processed": "<p>IT Consultis is an award-winning Digital Transformation Consultancy in China and APAC, empowering the most ambitious Fortune 500 companies with the right strategy &amp; execution playbook leveraging MarTech, e-Commerce, and Omnichannel solutions to grow revenue and build customer loyalty.<\/p>",
             "summary": "",
             "lang": "en"
+        },
+        {
+            "value": "<p>IT Consultis\uff08\u6717\u9ad8\u6295\u8d44\u54a8\u8be2\uff08\u4e0a\u6d77\uff09\u6709\u9650\u516c\u53f8\uff09\u6210\u7acb\u4e8e2008\u5e74\uff0c\u603b\u90e8\u4f4d\u4e8e\u4e2d\u56fd\u4e0a\u6d77\uff0c\u662f\u4e00\u5bb6\u5c61\u83b7\u6b8a\u8363\u7684\u6570\u5b57\u8f6c\u578b\u54a8\u8be2\u516c\u53f8\uff0c\u4e13\u6ce8\u4e8e\u4e2d\u56fd\u53ca\u4e9a\u592a\u5e02\u573a\u3002\u6211\u4eec\u4e3a\u6700\u5177\u96c4\u5fc3\u7684\u300a\u8d22\u5bcc\u300b500\u5f3a\u4f01\u4e1a\u63d0\u4f9b\u6218\u7565\u4e0e\u6267\u884c\u65b9\u6848\uff0c\u901a\u8fc7\u8425\u9500\u6280\u672f\uff08MarTech\uff09\u3001\u7535\u5b50\u5546\u52a1\u548c\u5168\u6e20\u9053\u89e3\u51b3\u65b9\u6848\u52a9\u529b\u4f01\u4e1a\u5b9e\u73b0\u6536\u5165\u589e\u957f\u4e0e\u5ba2\u6237\u5fe0\u8bda\u5ea6\u63d0\u5347\u3002<\/p>",
+            "format": "basic_html",
+            "processed": "<p>IT Consultis\uff08\u6717\u9ad8\u6295\u8d44\u54a8\u8be2\uff08\u4e0a\u6d77\uff09\u6709\u9650\u516c\u53f8\uff09\u6210\u7acb\u4e8e2008\u5e74\uff0c\u603b\u90e8\u4f4d\u4e8e\u4e2d\u56fd\u4e0a\u6d77\uff0c\u662f\u4e00\u5bb6\u5c61\u83b7\u6b8a\u8363\u7684\u6570\u5b57\u8f6c\u578b\u54a8\u8be2\u516c\u53f8\uff0c\u4e13\u6ce8\u4e8e\u4e2d\u56fd\u53ca\u4e9a\u592a\u5e02\u573a\u3002\u6211\u4eec\u4e3a\u6700\u5177\u96c4\u5fc3\u7684\u300a\u8d22\u5bcc\u300b500\u5f3a\u4f01\u4e1a\u63d0\u4f9b\u6218\u7565\u4e0e\u6267\u884c\u65b9\u6848\uff0c\u901a\u8fc7\u8425\u9500\u6280\u672f\uff08MarTech\uff09\u3001\u7535\u5b50\u5546\u52a1\u548c\u5168\u6e20\u9053\u89e3\u51b3\u65b9\u6848\u52a9\u529b\u4f01\u4e1a\u5b9e\u73b0\u6536\u5165\u589e\u957f\u4e0e\u5ba2\u6237\u5fe0\u8bda\u5ea6\u63d0\u5347\u3002<\/p>",
+            "summary": "",
+            "lang": "zh-hans"
         }
     ],
     "field_bg_color": [
@@ -133,9 +198,13 @@
         {
             "value": "Reimagining Your Digital Future Together",
             "lang": "en"
+        },
+        {
+            "value": "\u643a\u624b\u91cd\u5851\u6570\u5b57\u672a\u6765",
+            "lang": "zh-hans"
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1766598525
+        "export_timestamp": 1766624460
     }
 }

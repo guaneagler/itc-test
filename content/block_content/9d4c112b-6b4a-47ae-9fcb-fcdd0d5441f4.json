@@ -10,6 +10,10 @@
             {
                 "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json",
                 "lang": "en"
+            },
+            {
+                "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json",
+                "lang": "zh-hans"
             }
         ],
         "https:\/\/itc.ddev.site\/rest\/relation\/block_content\/core_values\/field_values": [
@@ -38,6 +42,10 @@
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "zh-hans",
+            "lang": "zh-hans"
         }
     ],
     "type": [
@@ -55,18 +63,31 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "info": [
         {
             "value": "Our Core Values",
             "lang": "en"
+        },
+        {
+            "value": "Our Core Values CN",
+            "lang": "zh-hans"
         }
     ],
     "changed": [
         {
             "value": "2025-12-24T03:36:23+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-25T00:55:25+00:00",
+            "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -79,24 +100,40 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "zh-hans"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "_embedded": {
@@ -116,6 +153,22 @@
                     }
                 ],
                 "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/itc.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "69897b8b-e81d-40c4-91df-1cd2b2f88475"
+                    }
+                ],
+                "lang": "zh-hans"
             }
         ],
         "https:\/\/itc.ddev.site\/rest\/relation\/block_content\/core_values\/field_values": [
@@ -174,6 +227,11 @@
             "value": "2025-12-24T03:35:41+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-25T00:55:25+00:00",
+            "lang": "zh-hans",
+            "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "body": [
@@ -183,15 +241,26 @@
             "processed": "<p>Our core values define ITC, tie us together, and shape our every action. They drive our business growth to help our clients succeed<\/p>",
             "summary": "",
             "lang": "en"
+        },
+        {
+            "value": "<p>\u6211\u4eec\u7684\u6838\u5fc3\u4ef7\u503c\u89c2\u5b9a\u4e49\u4e86ITC\uff0c\u7d27\u5bc6\u8fde\u63a5\u6211\u4eec\u6bcf\u4e00\u4f4d\u6210\u5458\uff0c\u5e76\u6307\u5f15\u7740\u6211\u4eec\u7684\u6bcf\u4e00\u4e2a\u884c\u52a8\u3002\u8fd9\u4e9b\u4ef7\u503c\u89c2\u4e0d\u4ec5\u63a8\u52a8\u7740\u6211\u4eec\u7684\u4e1a\u52a1\u589e\u957f\uff0c\u4e5f\u52a9\u529b\u5ba2\u6237\u5b9e\u73b0\u6210\u529f\u3002<\/p>",
+            "format": "basic_html",
+            "processed": "<p>\u6211\u4eec\u7684\u6838\u5fc3\u4ef7\u503c\u89c2\u5b9a\u4e49\u4e86ITC\uff0c\u7d27\u5bc6\u8fde\u63a5\u6211\u4eec\u6bcf\u4e00\u4f4d\u6210\u5458\uff0c\u5e76\u6307\u5f15\u7740\u6211\u4eec\u7684\u6bcf\u4e00\u4e2a\u884c\u52a8\u3002\u8fd9\u4e9b\u4ef7\u503c\u89c2\u4e0d\u4ec5\u63a8\u52a8\u7740\u6211\u4eec\u7684\u4e1a\u52a1\u589e\u957f\uff0c\u4e5f\u52a9\u529b\u5ba2\u6237\u5b9e\u73b0\u6210\u529f\u3002<\/p>",
+            "summary": "",
+            "lang": "zh-hans"
         }
     ],
     "field_title": [
         {
             "value": "Our Core Values",
             "lang": "en"
+        },
+        {
+            "value": "\u6211\u4eec\u7684\u6838\u5fc3\u4ef7\u503c\u89c2",
+            "lang": "zh-hans"
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1766598525
+        "export_timestamp": 1766624437
     }
 }
