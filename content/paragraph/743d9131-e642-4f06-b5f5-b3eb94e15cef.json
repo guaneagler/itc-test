@@ -10,6 +10,10 @@
             {
                 "href": "",
                 "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "zh-hans"
             }
         ]
     },
@@ -27,6 +31,10 @@
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "zh-hans",
+            "lang": "zh-hans"
         }
     ],
     "type": [
@@ -38,12 +46,21 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "created": [
         {
             "value": "2025-12-24T03:36:03+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-24T03:36:03+00:00",
+            "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -71,30 +88,51 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "zh-hans"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "content_translation_changed": [
         {
             "value": "2025-12-24T03:36:23+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-24T03:36:23+00:00",
+            "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -104,6 +142,12 @@
             "format": "basic_html",
             "processed": "<p>We are set for collective success. We believe in the power of teamwork and support, and we are always willing to lend a hand to help our colleagues and make an unstoppable team. We are a resilient group, always striving for results and motivated by a shared passion and excitement for what we do.<\/p>",
             "lang": "en"
+        },
+        {
+            "value": "<p>\u6211\u4eec\u4e3a\u96c6\u4f53\u7684\u6210\u529f\u800c\u751f\uff0c\u6df1\u4fe1\u56e2\u961f\u534f\u4f5c\u4e0e\u76f8\u4e92\u652f\u6301\u7684\u529b\u91cf\u3002\u6211\u4eec\u59cb\u7ec8\u4e50\u4e8e\u4f38\u51fa\u63f4\u624b\uff0c\u5e2e\u52a9\u540c\u4e8b\uff0c\u6253\u9020\u4e00\u4e2a\u65e0\u575a\u4e0d\u6467\u7684\u56e2\u961f\u3002\u6211\u4eec\u662f\u4e00\u4e2a\u575a\u97e7\u7684\u96c6\u4f53\uff0c\u59cb\u7ec8\u8ffd\u6c42\u5353\u8d8a\u6210\u679c\u3002\u5171\u540c\u7684\u70ed\u60c5\u4e0e\u5bf9\u5de5\u4f5c\u7684\u70ed\u7231\uff0c\u662f\u6211\u4eec\u6301\u7eed\u524d\u8fdb\u7684\u4e0d\u7aed\u52a8\u529b\u3002<\/p>",
+            "format": "basic_html",
+            "processed": "<p>\u6211\u4eec\u4e3a\u96c6\u4f53\u7684\u6210\u529f\u800c\u751f\uff0c\u6df1\u4fe1\u56e2\u961f\u534f\u4f5c\u4e0e\u76f8\u4e92\u652f\u6301\u7684\u529b\u91cf\u3002\u6211\u4eec\u59cb\u7ec8\u4e50\u4e8e\u4f38\u51fa\u63f4\u624b\uff0c\u5e2e\u52a9\u540c\u4e8b\uff0c\u6253\u9020\u4e00\u4e2a\u65e0\u575a\u4e0d\u6467\u7684\u56e2\u961f\u3002\u6211\u4eec\u662f\u4e00\u4e2a\u575a\u97e7\u7684\u96c6\u4f53\uff0c\u59cb\u7ec8\u8ffd\u6c42\u5353\u8d8a\u6210\u679c\u3002\u5171\u540c\u7684\u70ed\u60c5\u4e0e\u5bf9\u5de5\u4f5c\u7684\u70ed\u7231\uff0c\u662f\u6211\u4eec\u6301\u7eed\u524d\u8fdb\u7684\u4e0d\u7aed\u52a8\u529b\u3002<\/p>",
+            "lang": "zh-hans"
         }
     ],
     "_embedded": {
@@ -127,6 +171,26 @@
                 "title": "",
                 "width": "520",
                 "height": "520"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4567405a-5e05-4635-b48f-648ef33a745e"
+                    }
+                ],
+                "lang": "zh-hans",
+                "alt": "We, the TEAM",
+                "title": "",
+                "width": "520",
+                "height": "520"
             }
         ]
     },
@@ -134,9 +198,13 @@
         {
             "value": "We, the TEAM",
             "lang": "en"
+        },
+        {
+            "value": "\u6211\u4eec\u662f\u4e00\u4e2a\u56e2\u961f",
+            "lang": "zh-hans"
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1766601866
+        "export_timestamp": 1766628567
     }
 }

@@ -10,6 +10,10 @@
             {
                 "href": "",
                 "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "zh-hans"
             }
         ]
     },
@@ -27,6 +31,10 @@
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "zh-hans",
+            "lang": "zh-hans"
         }
     ],
     "type": [
@@ -38,12 +46,21 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "created": [
         {
             "value": "2025-12-24T03:33:50+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-24T03:33:50+00:00",
+            "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -71,30 +88,51 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "zh-hans"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "content_translation_changed": [
         {
             "value": "2025-12-24T03:34:03+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-25T00:56:33+00:00",
+            "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -119,6 +157,26 @@
                 "title": "",
                 "width": "1998",
                 "height": "1214"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "13a47df6-f0d6-4fe5-8e67-31bc6597f2fb"
+                    }
+                ],
+                "lang": "zh-hans",
+                "alt": "2023\u91d1\u5956 & 2024\u94dc\u5956\uff08\u4f01\u4e1a\u5fae\u4fe1\u3001\u5ba2\u6237\u7ba1\u7406\u53caCRM\uff09",
+                "title": "",
+                "width": "1998",
+                "height": "1214"
             }
         ]
     },
@@ -126,9 +184,13 @@
         {
             "value": "2023 GOLD & 2024 BRONZE WINNER (WECOM, CLIENTELING, & CRM)",
             "lang": "en"
+        },
+        {
+            "value": "2023\u91d1\u5956 & 2024\u94dc\u5956\uff08\u4f01\u4e1a\u5fae\u4fe1\u3001\u5ba2\u6237\u7ba1\u7406\u53caCRM\uff09",
+            "lang": "zh-hans"
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1766601858
+        "export_timestamp": 1766628559
     }
 }

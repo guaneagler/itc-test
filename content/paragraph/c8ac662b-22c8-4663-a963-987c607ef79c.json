@@ -10,6 +10,10 @@
             {
                 "href": "",
                 "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "zh-hans"
             }
         ]
     },
@@ -27,6 +31,10 @@
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "zh-hans",
+            "lang": "zh-hans"
         }
     ],
     "type": [
@@ -38,12 +46,21 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "created": [
         {
             "value": "2025-12-24T03:29:28+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-24T03:29:28+00:00",
+            "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -71,30 +88,51 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "zh-hans"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "content_translation_changed": [
         {
             "value": "2025-12-24T03:29:28+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-24T03:29:28+00:00",
+            "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -119,6 +157,26 @@
                 "title": "",
                 "width": null,
                 "height": null
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6647a3ac-f1ad-4fca-85b6-7939429918e5"
+                    }
+                ],
+                "lang": "zh-hans",
+                "alt": "\u6280\u672f\u54a8\u8be2\u4e0e\u5f00\u53d1",
+                "title": "",
+                "width": null,
+                "height": null
             }
         ]
     },
@@ -126,9 +184,13 @@
         {
             "value": "Tech Consulting and Development",
             "lang": "en"
+        },
+        {
+            "value": "\u6280\u672f\u54a8\u8be2\u4e0e\u5f00\u53d1",
+            "lang": "zh-hans"
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1766601858
+        "export_timestamp": 1766628559
     }
 }

@@ -10,6 +10,10 @@
             {
                 "href": "",
                 "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "zh-hans"
             }
         ]
     },
@@ -27,6 +31,10 @@
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "zh-hans",
+            "lang": "zh-hans"
         }
     ],
     "type": [
@@ -38,12 +46,21 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "created": [
         {
             "value": "2025-12-24T03:33:25+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-24T03:33:25+00:00",
+            "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -71,30 +88,51 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "zh-hans"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "content_translation_changed": [
         {
             "value": "2025-12-24T03:34:03+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-25T00:56:33+00:00",
+            "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -119,6 +157,26 @@
                 "title": "",
                 "width": "1998",
                 "height": "2160"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f6be980a-1ea6-4219-b74b-96b811785a87"
+                    }
+                ],
+                "lang": "zh-hans",
+                "alt": "2024\u4e2d\u56fdCRM\u54a8\u8be2\u9886\u5bfc\u8005",
+                "title": "",
+                "width": "1998",
+                "height": "2160"
             }
         ]
     },
@@ -126,9 +184,13 @@
         {
             "value": "TOP CRM CONSULTING CHINA LEADER 2024",
             "lang": "en"
+        },
+        {
+            "value": "2024\u4e2d\u56fdCRM\u54a8\u8be2\u9886\u5bfc\u8005",
+            "lang": "zh-hans"
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1766601858
+        "export_timestamp": 1766628559
     }
 }

@@ -10,6 +10,10 @@
             {
                 "href": "",
                 "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "zh-hans"
             }
         ]
     },
@@ -27,6 +31,10 @@
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "zh-hans",
+            "lang": "zh-hans"
         }
     ],
     "type": [
@@ -38,12 +46,21 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "created": [
         {
             "value": "2025-12-24T03:37:38+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-24T03:37:38+00:00",
+            "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -71,30 +88,51 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "zh-hans"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "content_translation_changed": [
         {
             "value": "2025-12-24T14:01:24+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-24T14:01:24+00:00",
+            "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -104,6 +142,12 @@
             "format": "basic_html",
             "processed": "<p>\u201cA natural leader with a strategic vision for the long-term development of the companies. Coordinating all finance, HR, and legal-related operations. Ensuring the companies always go in the right direction and each employee is well taken care of, both at a professional and personal level.\u201d<\/p><ul><li>THOUGHTFUL<\/li><li>PIONEERED<\/li><li>STRATEGIC<\/li><\/ul>",
             "lang": "en"
+        },
+        {
+            "value": "<p>\u201c\u5177\u6709\u957f\u671f\u6218\u7565\u89c6\u91ce\u7684\u5929\u751f\u9886\u5bfc\u8005\uff0c\u8d1f\u8d23\u4f01\u4e1a\u7684\u8d22\u52a1\u3001\u4eba\u529b\u8d44\u6e90\u53ca\u6cd5\u5f8b\u76f8\u5173\u4e8b\u52a1\u7684\u7edf\u7b79\u8fd0\u8425\uff0c\u786e\u4fdd\u516c\u53f8\u59cb\u7ec8\u671d\u7740\u6b63\u786e\u7684\u65b9\u5411\u53d1\u5c55\uff0c\u5e76\u5173\u6ce8\u6bcf\u4f4d\u5458\u5de5\u7684\u804c\u4e1a\u53ca\u4e2a\u4eba\u6210\u957f\u3002\u201d<\/p><ul><li>\u6df1\u601d\u719f\u8651<\/li><li>\u5148\u950b<\/li><li>\u6218\u7565<\/li><\/ul>",
+            "format": "basic_html",
+            "processed": "<p>\u201c\u5177\u6709\u957f\u671f\u6218\u7565\u89c6\u91ce\u7684\u5929\u751f\u9886\u5bfc\u8005\uff0c\u8d1f\u8d23\u4f01\u4e1a\u7684\u8d22\u52a1\u3001\u4eba\u529b\u8d44\u6e90\u53ca\u6cd5\u5f8b\u76f8\u5173\u4e8b\u52a1\u7684\u7edf\u7b79\u8fd0\u8425\uff0c\u786e\u4fdd\u516c\u53f8\u59cb\u7ec8\u671d\u7740\u6b63\u786e\u7684\u65b9\u5411\u53d1\u5c55\uff0c\u5e76\u5173\u6ce8\u6bcf\u4f4d\u5458\u5de5\u7684\u804c\u4e1a\u53ca\u4e2a\u4eba\u6210\u957f\u3002\u201d<\/p><ul><li>\u6df1\u601d\u719f\u8651<\/li><li>\u5148\u950b<\/li><li>\u6218\u7565<\/li><\/ul>",
+            "lang": "zh-hans"
         }
     ],
     "_embedded": {
@@ -127,6 +171,26 @@
                 "title": "",
                 "width": "644",
                 "height": "860"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9f4e4567-fb07-4c92-8dcd-e80587159741"
+                    }
+                ],
+                "lang": "zh-hans",
+                "alt": "Yoan Rigart Lenisa",
+                "title": "",
+                "width": "644",
+                "height": "860"
             }
         ]
     },
@@ -134,15 +198,23 @@
         {
             "value": "Co-Founder, CEO",
             "lang": "en"
+        },
+        {
+            "value": "\u8054\u5408\u521b\u59cb\u4eba\u3001\u9996\u5e2d\u6267\u884c\u5b98",
+            "lang": "zh-hans"
         }
     ],
     "field_title": [
         {
             "value": "Yoan Rigart Lenisa",
             "lang": "en"
+        },
+        {
+            "value": "Yoan Rigart Lenisa",
+            "lang": "zh-hans"
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1766598525
+        "export_timestamp": 1766628551
     }
 }

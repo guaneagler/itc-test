@@ -10,6 +10,10 @@
             {
                 "href": "",
                 "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "zh-hans"
             }
         ]
     },
@@ -27,6 +31,10 @@
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "zh-hans",
+            "lang": "zh-hans"
         }
     ],
     "type": [
@@ -38,12 +46,21 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "created": [
         {
             "value": "2025-12-24T03:35:41+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-24T03:35:41+00:00",
+            "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -71,30 +88,51 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "zh-hans"
         }
     ],
     "content_translation_source": [
         {
             "value": "und",
             "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "zh-hans"
         }
     ],
     "content_translation_outdated": [
         {
             "value": false,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "zh-hans"
         }
     ],
     "content_translation_changed": [
         {
             "value": "2025-12-24T03:36:23+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2025-12-24T03:36:23+00:00",
+            "lang": "zh-hans",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -104,6 +142,12 @@
             "format": "basic_html",
             "processed": "<p>Problem-solvers at heart, we firmly believe that we can do everything we set our minds to. Challenges are here for us to tackle - Obstacle is the Way. New knowledge and skills are keys to helping service our clients to beat their competitors. Our commitment is to find solutions to any problem we encounter. We never give up until we find the best way forward. \u201cWe figure it out\u201d is more than a value we hold, it is a way of life for us.<\/p>",
             "lang": "en"
+        },
+        {
+            "value": "<p>\u6211\u4eec\u5929\u751f\u5c31\u662f\u95ee\u9898\u89e3\u51b3\u8005\uff0c\u6df1\u4fe1\u53ea\u8981\u4e0b\u5b9a\u51b3\u5fc3\uff0c\u5c31\u80fd\u514b\u670d\u4efb\u4f55\u6311\u6218\u3002\"\u969c\u788d\u5373\u9053\u8def\"\u662f\u6211\u4eec\u7684\u4fe1\u6761\u3002\u65b0\u77e5\u8bc6\u4e0e\u65b0\u6280\u80fd\u662f\u6211\u4eec\u5e2e\u52a9\u5ba2\u6237\u6218\u80dc\u7ade\u4e89\u5bf9\u624b\u7684\u5173\u952e\u3002\u6211\u4eec\u627f\u8bfa\u4e3a\u6bcf\u4e00\u4e2a\u95ee\u9898\u627e\u5230\u89e3\u51b3\u65b9\u6848\uff0c\u6c38\u4e0d\u653e\u5f03\uff0c\u76f4\u5230\u627e\u5230\u6700\u4f73\u7684\u524d\u8fdb\u8def\u5f84\u3002\"\u6211\u4eec\u63a2\u7d22\u89e3\u51b3\u65b9\u6848\"\u4e0d\u4ec5\u662f\u6211\u4eec\u7684\u6838\u5fc3\u4ef7\u503c\u89c2\uff0c\u66f4\u662f\u6211\u4eec\u65e5\u5e38\u7684\u751f\u6d3b\u65b9\u5f0f\u3002<\/p>",
+            "format": "basic_html",
+            "processed": "<p>\u6211\u4eec\u5929\u751f\u5c31\u662f\u95ee\u9898\u89e3\u51b3\u8005\uff0c\u6df1\u4fe1\u53ea\u8981\u4e0b\u5b9a\u51b3\u5fc3\uff0c\u5c31\u80fd\u514b\u670d\u4efb\u4f55\u6311\u6218\u3002\"\u969c\u788d\u5373\u9053\u8def\"\u662f\u6211\u4eec\u7684\u4fe1\u6761\u3002\u65b0\u77e5\u8bc6\u4e0e\u65b0\u6280\u80fd\u662f\u6211\u4eec\u5e2e\u52a9\u5ba2\u6237\u6218\u80dc\u7ade\u4e89\u5bf9\u624b\u7684\u5173\u952e\u3002\u6211\u4eec\u627f\u8bfa\u4e3a\u6bcf\u4e00\u4e2a\u95ee\u9898\u627e\u5230\u89e3\u51b3\u65b9\u6848\uff0c\u6c38\u4e0d\u653e\u5f03\uff0c\u76f4\u5230\u627e\u5230\u6700\u4f73\u7684\u524d\u8fdb\u8def\u5f84\u3002\"\u6211\u4eec\u63a2\u7d22\u89e3\u51b3\u65b9\u6848\"\u4e0d\u4ec5\u662f\u6211\u4eec\u7684\u6838\u5fc3\u4ef7\u503c\u89c2\uff0c\u66f4\u662f\u6211\u4eec\u65e5\u5e38\u7684\u751f\u6d3b\u65b9\u5f0f\u3002<\/p>",
+            "lang": "zh-hans"
         }
     ],
     "_embedded": {
@@ -127,6 +171,26 @@
                 "title": "",
                 "width": "520",
                 "height": "520"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/itc.ddev.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e7e0e6bb-ab24-4f4f-b6ed-d0713cbd0d14"
+                    }
+                ],
+                "lang": "zh-hans",
+                "alt": "We Figure It Out",
+                "title": "",
+                "width": "520",
+                "height": "520"
             }
         ]
     },
@@ -134,9 +198,13 @@
         {
             "value": "We Figure It Out",
             "lang": "en"
+        },
+        {
+            "value": "\u6211\u4eec\u63a2\u7d22\u89e3\u51b3\u65b9\u6848",
+            "lang": "zh-hans"
         }
     ],
     "_dcd_metadata": {
-        "export_timestamp": 1766601866
+        "export_timestamp": 1766628567
     }
 }
